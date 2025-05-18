@@ -35,7 +35,7 @@ p{
     width: 440px;
     margin-top: 30px;
 }
-#password1-el, #password2-el{
+.password-btn{
     background-color: #273549;
     border: none;
     color: #10B981;
@@ -43,6 +43,11 @@ p{
     border-radius: 5px;
     width: 200px;
     height: 40px;
+    margin-bottom: 20px;
+}
+
+.password-btn:hover, #delete-btn:hover{
+    cursor: pointer;
 }
 
 #input-password{
@@ -50,3 +55,18 @@ p{
     justify-content: center;
     gap: 100px;
 }
+
+#selected-password{
+    margin: 20 auto;
+    border: 1px solid #10B981;
+}
+
+#delete-btn, #save-btn{
+    background-color: #10B981;
+    border: none;
+    color: #273549;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
